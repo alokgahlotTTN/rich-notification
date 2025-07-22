@@ -2776,6 +2776,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@react-native-firebase/messaging@npm:^22.4.0":
+  version: 22.4.0
+  resolution: "@react-native-firebase/messaging@npm:22.4.0"
+  peerDependencies:
+    "@react-native-firebase/app": 22.4.0
+    expo: ">=47.0.0"
+  peerDependenciesMeta:
+    expo:
+      optional: true
+  checksum: e50345bf1575a4df797821753a70898af38dbdc74caf3f114fde8229ed4a97395b9b02119807d0eca8a80ea6afff82138783765c193093a585d366f88177e1c6
+  languageName: node
+  linkType: hard
+
 "@react-native/assets-registry@npm:0.80.1":
   version: 0.80.1
   resolution: "@react-native/assets-registry@npm:0.80.1"
@@ -8323,6 +8336,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-native-permissions@npm:^5.4.1":
+  version: 5.4.1
+  resolution: "react-native-permissions@npm:5.4.1"
+  peerDependencies:
+    react: ">=18.1.0"
+    react-native: ">=0.70.0"
+    react-native-windows: ">=0.70.0"
+  peerDependenciesMeta:
+    react-native-windows:
+      optional: true
+  checksum: ef3951cd9ff50299fa427d3bf939f4f02183b246fe4bd79a519cfa62b575d3e82ab6f5f31066620208df03f0c0b1b49c28ce9bd995ef0419300436256a7a099d
+  languageName: node
+  linkType: hard
+
 "react-native@npm:0.80.1":
   version: 0.80.1
   resolution: "react-native@npm:0.80.1"
@@ -8634,6 +8661,7 @@ __metadata:
     "@react-native-community/cli-platform-android": 19.0.0
     "@react-native-community/cli-platform-ios": 19.0.0
     "@react-native-firebase/app": ^22.4.0
+    "@react-native-firebase/messaging": ^22.4.0
     "@react-native/babel-preset": 0.80.1
     "@react-native/eslint-config": 0.80.1
     "@react-native/metro-config": 0.80.1
@@ -8647,6 +8675,7 @@ __metadata:
     prettier: 2.8.8
     react: 19.1.0
     react-native: 0.80.1
+    react-native-permissions: ^5.4.1
     react-test-renderer: 19.1.0
     typescript: 5.0.4
   languageName: unknown
