@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "457050355351",
+    "project_id": "richnotification-2d53b",
+    "storage_bucket": "richnotification-2d53b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:457050355351:android:05ae1855a4b6ac1983dbd2",
+        "android_client_info": {
+          "package_name": "com.richnotification"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1L6-LT-vD5q6QIhix52EDHm0b2D2kIJ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
